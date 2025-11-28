@@ -1,23 +1,30 @@
-<html>
+<htnl>
   <head>
-     <meta charset="UTF-8">
+  <meta charsets="utf-8">
   </head>
-  <body> 
-    <hl style="color: red; text-align:center;"> GIOI THIEU </h1>
-      <table>
+  <body>
+    <h1 style="color: red; text-align: center;">
+            GIỚI THIỆU BẢN THÂN
+    </h1>
+     
+     <table>
         <tr>
-          <td>
-             <img scr="images/images.png" width="180" height='270">
-          </td>
-          <td>
-     Nickname
-     <h2 style="color: blue; "> So thich </h2>
-      viet noi dung
-      <h2> So truong </h2> viet noi dung
-      <h2> Uoc mo </h2> viet noi dung
-      <h2> Du dinh tuong lai trong 5 nam toi </h2> noi dung
-          </td>
-          </tr>
-       </table>
-  </body> 
-</html>
+           <td>
+             <img src="images/download.jpg" width="180" height="270"
+           </td>
+           <td>
+              <h2 style = "color: tomato;">     Nickname </h2>
+              Yor
+              <h2 style = "color: tomato;">     Sở thích</h2>
+              Nghe nhạc
+              <h2 style = "color: tomato;">     Sở trường</h2>
+              Nấu ăn
+              <h2 style = "color: tomato;">     Ước mơ</h2>
+              Có công việc ổn định
+              <h2 style = "color: tomato;">     Dự định tương lai trong 5 năm tới </h2>
+              Tốt nghiệp đại học 
+           </td>
+        </tr>
+     </table>      
+  </body>
+</htnl>
