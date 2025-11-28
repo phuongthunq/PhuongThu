@@ -3,6 +3,21 @@
      <meta charset="UTF-8">
   </head>
   <body> 
-    nickname
+    <hl style="color: red; text-align:center;"> GIOI THIEU </h1>
+      <table>
+        <tr>
+          <td>
+             <img scr="images/images.png" width="180" height='270">
+          </td>
+          <td>
+     Nickname
+     <h2 style="color: blue; "> So thich </h2>
+      viet noi dung
+      <h2> So truong </h2> viet noi dung
+      <h2> Uoc mo </h2> viet noi dung
+      <h2> Du dinh tuong lai trong 5 nam toi </h2> noi dung
+          </td>
+          </tr>
+       </table>
   </body> 
 </html>
