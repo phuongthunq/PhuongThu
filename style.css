@@ -1,3 +1,18 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  heigh: 100vh;
+}
+.header{
+  flex: 20%
+  background-color: lightgray;
+}
+.menu{
+  
+}
+.footer{
+  
+}
 h1{
   color: red;
   font-weight: bold;
