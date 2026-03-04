@@ -12,6 +12,7 @@
 .menu{
   flex:5%;
   background-color: darkgray;
+  color: white;
   display: flex;
   align-items: center;
 }
