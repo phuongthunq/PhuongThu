@@ -1,22 +1,16 @@
 <html>
-<head>
-<title>index</title>
-<meta charset="utf-8">
-</head>
-<body>
-<from action = "hoithao.php" method = "POST">
-<h3> Tham gia hội thảo </h3>
-<label>Họ và tên: <input type=" type"= "text" name="txtHovaten"></label>
-<label>Địa chỉ email: <input type="email" name="txtEmail"></label>
-<input type = "radio" name = "opttime" value = "10">Lớp 10
-<input type = "radio" name = "opttime" value = "11">Lớp 11
-<input type = "radio" name = "opttime" value = "12">Lớp 12
-<p> Tham dự môn: </p>
-<input type = "checkbox" name = "chkBongBan">Bóng Bàn
-<input type = "checkbox" name = "chkCauLong">Cầu Lông
-<input type = "checkbox" name = "chkCoVua">Cờ Vua
-<input type = "submit" name = "cmd" value = "Đăng kí"
-<input type = "submit" name = "cmd" value = "Huỷ bỏ"
-</from>
-</body>
+  <body>
+    <p id="kq"> </p>
+      <script>
+        let p = new URLSeaechParams(window.location.search);
+        let ten = pp.get("txtTen");
+        let yk = pp.get("txtComment");
+        document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten
+        + " đã góp ý <br><br> Chúng tôi ghi nhận ý kiến của bạn:<br>"
+        +yk;
+      </script>
+    <from action="Bai7-NV2.html">
+      <input type="submit" name="back" value="Quay lại">
+    </from>
+  </body>
 </html>
